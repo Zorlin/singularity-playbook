@@ -1,0 +1,8 @@
+---
+- name: Install Singularity
+  hosts: all
+  become: true
+
+  roles:
+    - gantsign.golang
+    - zorlin.singularity
